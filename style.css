@@ -1,0 +1,42 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.icon ul a {
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+}
+.icon ul {
+  margin-left: 60px;
+}
+
+.row {
+  padding-top: 50px;
+}
+.card p {
+  margin-top: -5px;
+  margin-bottom: 1px;
+  background-color: white;
+}
+.row .card:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  transform: scaleX(1.02);
+}
+.card-title {
+  font-size: 19px;
+  background-color: white;
+}
+.footer {
+  background-color: blue;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.group {
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
