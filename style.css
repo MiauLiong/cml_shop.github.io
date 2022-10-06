@@ -19,24 +19,41 @@
   margin-bottom: 1px;
   background-color: white;
 }
+
+.card {
+  width: 10rem;
+}
+
 .row .card:hover {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   transform: scaleX(1.02);
 }
-.card-title {
+
+.card .card-img-top {
+  margin-top: 7px;
+}
+
+.card .card-title {
   font-size: 19px;
   background-color: white;
 }
+
+.card .card-text {
+  margin-bottom: 5px;
+}
+
 .footer {
   background-color: blue;
   font-size: 20px;
   color: white;
   text-align: center;
 }
+
 .group {
   text-decoration: none;
   color: black;
 }
+
 a {
   text-decoration: none;
 }
