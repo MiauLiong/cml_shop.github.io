@@ -17,14 +17,13 @@
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow p-2 fixed-top bg-primary">
-      <div class="container" style="background-color: antiquewhite">
+      <div class="container" style="background-color: #c7c0c0fa">
         <a class="navbar-brand fw-bold" href="#">CML Shop</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse fw-bold" id="navbarNav">
-          <div class="icon"></div>
+        <div class="collapse navbar-collapse fw-bold" style="background-color: #c7c0c0fa" id="navbarNav">
           <ul class="navbar-nav ms-auto" style="padding-right: 7px">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
@@ -44,6 +43,7 @@
     <!-- akhir navbar -->
 
     <!-- kategori produk -->
+
     <div class="row justify-content-evenly">
       <!-- carousel -->
 
@@ -61,691 +61,1794 @@
             </div>
           </div>
         </div>
+
+        <!-- promo -->
+        <h4 class="text-center fw-bold m-4"><u>Produk Promo</u></h4>
+
+        <div class="container-promo">
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo1 " data-bs-toggle="modal">
+              <img src="./img/headset-Bluetooth.png" class="card-img-top bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">Nama produk</h5>
+                <p class="card-text">Jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/headset-Bluetooth.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>
+                            <s>Rp 3000</s> <br />
+                            Rp-,
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo2" data-bs-toggle="modal">
+              <img src="./img/headset-erphone.png" class="card-img-top bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/headset-erphone.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+
+                          <td>
+                            <s>Rp 3000</s> <br />
+                            Rp-,
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo3 " data-bs-toggle="modal">
+              <img src="./img/baju 3.png" class="card-img-top bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/baju 3.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo4 " data-bs-toggle="modal">
+              <img src="./img/baju 1.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/baju 1.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>
+                            <s>Rp 3000</s> <br />
+                            Rp-,
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo5 " data-bs-toggle="modal">
+              <img src="./img/erphone-bluetooth blue.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/erphone-bluetooth blue.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>
+                            <s>Rp 3000</s> <br />
+                            Rp-,
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo6 " data-bs-toggle="modal">
+              <img src="./img/Headset headphone-Bluetooth.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/Headset headphone-Bluetooth.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo7 " data-bs-toggle="modal">
+              <img src="./img/jaket 1.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/P1.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>
+                            <s>Rp 3000</s> <br />
+                            Rp-,
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo8 " data-bs-toggle="modal">
+              <img src="./img/wireless-headset white.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jensi produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/wireless-headset white.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>
+                            <s>Rp 3000</s> <br />
+                            Rp-,
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo9 " data-bs-toggle="modal">
+              <img src="./img/erphone-bluetooth white 1.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="promo9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/P1.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>
+                            <s>Rp 3000</s> <br />
+                            Rp-,
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#promo10 " data-bs-toggle="modal">
+              <img src="./img/P1.jpg" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="produk10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="img/P1.jpg" alt="" />
+                  </div>
+                  <div class="col-md-6">
+                    <table class="table table-borderless">
+                      <tr>
+                        <th>Nama Produk</th>
+                        <td>Nama</td>
+                      </tr>
+                      <tr>
+                        <th>Jenis Produk</th>
+                        <td>Jenis</td>
+                      </tr>
+                      <tr>
+                        <th>Harga</th>
+                        <td>
+                          <s>Rp 3000</s> <br />
+                          Rp-,
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Ongkir</th>
+                        <td>Standar</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <style>
+                      .pesan {
+                        text-decoration: none;
+                        color: white;
+                        background-color: blue;
+                      }
+                    </style>
+                    <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                    <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- akhir promo -->
+
+        <!-- produk terlaris -->
+
+        <h4 class="text-center fw-bold m-4"><u>Produk Terlaris</u></h4>
+
+        <div class="container-promo">
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris1" data-bs-toggle="modal">
+              <img src="./img/erphone-bluetooth white 3.png" class="card-img-top bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/erphone-bluetooth white 3.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris2 " data-bs-toggle="modal">
+              <img src="./img/baju 1.png" class="card-img-top bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produkk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/baju 1.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris3 " data-bs-toggle="modal">
+              <img src="./img/jaket 2.png" class="card-img-top bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/jaket 2.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris4 " data-bs-toggle="modal">
+              <img src="./img/jam tangan.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/jam tangan.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris5 " data-bs-toggle="modal">
+              <img src="./img/jaket 9.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/jaket 9.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris6 " data-bs-toggle="modal">
+              <img src="./img/jaket 6.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/jaket 6.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris7 " data-bs-toggle="modal">
+              <img src="./img/headset-erphone.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/headset-erphone.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris8 " data-bs-toggle="modal">
+              <img src="./img/erphone-bluetooth black.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/erphone-bluetooth black.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris8 " data-bs-toggle="modal">
+              <img src="./img/baju 2.png " class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="laris8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/baju 2.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="promo">
+            <div class="card mr-2 ml-2 mb-2" data-bs-target="#laris10 " data-bs-toggle="modal">
+              <img src="./img/jam tangan 10.png" class="card-img-top mt-2 bg-white" alt="..." />
+              <div class="card-body bg-white">
+                <h5 class="card-title">nama produk</h5>
+                <p class="card-text">jenis produk</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="laris10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="img/jam tangan 10.png" alt="" />
+                  </div>
+                  <div class="col-md-6">
+                    <table class="table table-borderless">
+                      <tr>
+                        <th>Nama Produk</th>
+                        <td>Nama</td>
+                      </tr>
+                      <tr>
+                        <th>Jenis Produk</th>
+                        <td>Jenis</td>
+                      </tr>
+                      <tr>
+                        <th>Harga</th>
+                        <td>Rp-,</td>
+                      </tr>
+                      <tr>
+                        <th>Ongkir</th>
+                        <td>Standar</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <style>
+                      .pesan {
+                        text-decoration: none;
+                        color: white;
+                        background-color: blue;
+                      }
+                    </style>
+                    <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                    <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- akhir produk terlaris -->
         <!-- akhir carousel -->
 
-        <h4 class="text-center fw-bold m-4">Produk Terbaru</h4>
+        <h4 class="text-center fw-bold fw-underline mt-5"><u>Produk Terbaru</u></h4>
 
         <div class="row justify-content-evenly">
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/P1.jpg" class="card-img-top mb-2 mt-4 bg-white" alt="..." />
+          <div class="card">
+            <img src="./img/baju 1.png" class="card-img-top bg-white" alt="..." />
             <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
+              <h5 class="card-title">nama produk</h5>
               <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk1 " data-bs-toggle="modal">Detail</a>
-              <a href="#" class="btn btn-danger">Rp.-,</a>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru1 " data-bs-toggle="modal">Detail</a>
+              <a class="btn btn-danger">Rp.-,</a>
             </div>
           </div>
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/P1.jpg" class="card-img-top mb-2 mt-4 bg-white" alt="..." />
-            <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
-              <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk2 " data-bs-toggle="modal">Detail</a>
-              <a href="#" class="btn btn-danger">Rp.-,</a>
-            </div>
-          </div>
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/P1.jpg" class="card-img-top mb-2 mt-4 bg-white" alt="..." />
-            <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
-              <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk3 " data-bs-toggle="modal">Detail</a>
-              <a href="#" class="btn btn-danger">Rp.-,</a>
-            </div>
-          </div>
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/P1.jpg" class="card-img-top mb-2 mt-4 bg-white" alt="..." />
-            <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
-              <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk4 " data-bs-toggle="modal">Detail</a>
-              <a href="#" class="btn btn-danger">Rp.-,</a>
-            </div>
-          </div>
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/P1.jpg" class="card-img-top mb-2 mt-4 bg-white" alt="..." />
-            <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
-              <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk5 " data-bs-toggle="modal">Detail</a>
-              <a href="#" class="btn btn-danger">Rp.-,</a>
+          <div class="modal fade" id="baru1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/baju 1.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/p10.jpg" class="card-img-top mt-4 mb-2" alt="..." />
+          <div class="card">
+            <img src="./img/jam tangan 1.png" class="card-img-top bg-white" alt="..." />
             <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
+              <h5 class="card-title">nama produk</h5>
               <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk6 " data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru2 " data-bs-toggle="modal">Detail</a>
               <a href="#" class="btn btn-danger">Rp.-,</a>
             </div>
           </div>
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/p10.jpg" class="card-img-top mt-4 mb-2" alt="..." />
+          <div class="modal fade" id="baru2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/jam tangan 1.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/headset-erphone.png" class="card-img-top bg-white" alt="..." />
             <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
+              <h5 class="card-title">nama produk</h5>
               <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk7" data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru3 " data-bs-toggle="modal">Detail</a>
               <a href="#" class="btn btn-danger">Rp.-,</a>
             </div>
           </div>
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/p10.jpg" class="card-img-top mt-4 mb-2" alt="..." />
+          <div class="modal fade" id="baru3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/headset-erphone.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/jaket 9.png" class="card-img-top bg-white" alt="..." />
             <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
+              <h5 class="card-title">nama produk</h5>
               <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk8 " data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru4 " data-bs-toggle="modal">Detail</a>
               <a href="#" class="btn btn-danger">Rp.-,</a>
             </div>
           </div>
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/p10.jpg" class="card-img-top mt-4 mb-2" alt="..." />
+          <div class="modal fade bg-white" id="baru4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/jaket 9.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/jam tangan 8.png" class="card-img-top bg-white" alt="..." />
             <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
+              <h5 class="card-title">nama produk</h5>
               <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk9 " data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru5 " data-bs-toggle="modal">Detail</a>
               <a href="#" class="btn btn-danger">Rp.-,</a>
             </div>
           </div>
-          <div class="card mr-2 ml-2 mb-2">
-            <img src="./img/p10.jpg" class="card-img-top mt-4 mb-2" alt="..." />
+          <div class="modal fade" id="baru5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/jam tangan 8.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/baju 2.png" class="card-img-top" alt="..." />
             <div class="card-body bg-white">
-              <h5 class="card-title mt-4">nama produk</h5>
+              <h5 class="card-title">nama produk</h5>
               <p class="card-text mb-3">jenis produk</p>
-              <a href="#" class="btn btn-primary mb-1" data-bs-target="#produk10" data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru6 " data-bs-toggle="modal">Detail</a>
               <a href="#" class="btn btn-danger">Rp.-,</a>
+            </div>
+          </div>
+          <div class="modal fade bg-white" id="baru6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/baju 2.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/erphone-bluetooth white 1.png" class="card-img-top" alt="..." />
+            <div class="card-body bg-white">
+              <h5 class="card-title">nama produk</h5>
+              <p class="card-text mb-3">jenis produk</p>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru7" data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp.-,</a>
+            </div>
+          </div>
+          <div class="modal fade bg-white" id="baru7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/erphone-bluetooth white 1.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/jam tangan 10.png" class="card-img-top" alt="..." />
+            <div class="card-body bg-white">
+              <h5 class="card-title">nama produk</h5>
+              <p class="card-text mb-3">jenis produk</p>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru8 " data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp.-,</a>
+            </div>
+          </div>
+          <div class="modal fade bg-white" id="baru8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/jam tangan 10.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/erphone-bluetooth white 2.png" class="card-img-top" alt="..." />
+            <div class="card-body bg-white">
+              <h5 class="card-title">nama produk</h5>
+              <p class="card-text mb-3">jenis produk</p>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru9 " data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp.-,</a>
+            </div>
+          </div>
+          <div class="modal fade bg-white" id="baru9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/erphone-bluetooth white 2.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/erphone-bluetooth white.png" class="card-img-top" alt="..." />
+            <div class="card-body bg-white">
+              <h5 class="card-title">nama produk</h5>
+              <p class="card-text mb-3">jenis produk</p>
+              <a href="#" class="btn btn-primary mb-1" data-bs-target="#baru10" data-bs-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp.-,</a>
+            </div>
+          </div>
+          <div class="modal fade bg-white" id="baru10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/erphone-bluetooth white.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Nama</td>
+                        </tr>
+                        <tr>
+                          <th>Jenis Produk</th>
+                          <td>Jenis</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.-,</td>
+                        </tr>
+                        <tr>
+                          <th>Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <style>
+                        .pesan {
+                          text-decoration: none;
+                          color: white;
+                          background-color: blue;
+                        }
+                      </style>
+                      <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
+                      <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- akhir kategori produk -->
-
-    <!-- modal -->
-    <div class="modal fade bg-lights" id="produk1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/P1.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade bg-light" id="produk2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/P1.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade bg-light" id="produk3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/P1.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade bg-light" id="produk4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/P1.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade bg-light" id="produk5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/P1.jpg " alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade bg-light" id="produk6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/p10.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade bg-light" id="produk7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/p10.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade bg-light" id="produk8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/p10.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade bg-light" id="produk9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/p10.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade bg-light" id="produk10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/p10.jpg" alt="" />
-              </div>
-              <div class="col-md-6">
-                <table class="table table-borderless">
-                  <tr>
-                    <th>Nama Produk</th>
-                    <td>Nama</td>
-                  </tr>
-                  <tr>
-                    <th>Jenis Produk</th>
-                    <td>Jenis</td>
-                  </tr>
-                  <tr>
-                    <th>Harga</th>
-                    <td>Rp.300.000-,</td>
-                  </tr>
-                  <tr>
-                    <th>Ongkir</th>
-                    <td>Standar</td>
-                  </tr>
-                  <tr>
-                    <th>Rating Produk</th>
-                    <td>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <i class="bi bi-star"></i>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="modal-footer">
-                <style>
-                  .pesan {
-                    text-decoration: none;
-                    color: white;
-                    background-color: blue;
-                  }
-                </style>
-                <button type="button" class="btn btn-danger bg-danger" data-bs-dismiss="modal">Keluar</button>
-                <button type="button" class="btn btn-primary" style="background-color: blue"><a class="pesan" href="https://wa.me/+62895384287656">Pesan Sekarang</a></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- akhir modal -->
 
     <footer>
       <p class="footer">Online shop by CML | Copyright <i class="bi bi-c-circle" style="background-color: blue"></i> 29 September 2022</p>

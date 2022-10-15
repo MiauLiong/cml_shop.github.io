@@ -1,7 +1,14 @@
 * {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #c7c0c0fa;
 }
 
+.navbar {
+  background: white;
+}
+.collapse {
+  background: white;
+}
 .icon ul a {
   margin: 10px;
   font-size: 20px;
@@ -12,7 +19,7 @@
 }
 
 .row {
-  padding-top: 50px;
+  padding-top: 65px;
 }
 .card p {
   margin-top: -5px;
@@ -22,11 +29,12 @@
 
 .card {
   width: 10rem;
+  margin: 2px;
 }
 
 .row .card:hover {
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  transform: scaleX(1.02);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  transform: scaleX(1.09);
 }
 
 .card .card-img-top {
@@ -36,11 +44,49 @@
 .card .card-title {
   font-size: 19px;
   background-color: white;
+  margin-top: 1px;
 }
 
 .card .card-text {
   margin-bottom: 5px;
 }
+
+/* promo */
+.container-promo {
+  display: flex;
+  overflow-x: scroll;
+  padding: 24px;
+  width: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px;
+  border-radius: 8px;
+  gap: 12px;
+  background: #aeaeae;
+}
+.container .promo {
+  flex: 0 0 100%;
+  padding: 24px;
+  border-radius: 8px;
+  scroll-snap-align: start;
+}
+
+.container-promo,
+.promo .card-img-top {
+  padding: 5px;
+}
+.container-promo,
+.promo .card {
+  margin: 4px;
+}
+
+/* akhir promo */
+
+/* modal */
+.modal {
+  background: white;
+}
+
+/* akhir modal */
 
 .footer {
   background-color: blue;
@@ -56,4 +102,8 @@
 
 a {
   text-decoration: none;
+}
+
+s {
+  font-size: 12px;
 }
